@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/fashionsew/static/js/main.7ed95b4e.js",
+    "main.js": "/fashionsew/static/js/main.8ac6119b.js",
     "index.html": "/fashionsew/index.html",
-    "main.7ed95b4e.js.map": "/fashionsew/static/js/main.7ed95b4e.js.map"
+    "main.8ac6119b.js.map": "/fashionsew/static/js/main.8ac6119b.js.map"
   },
   "entrypoints": [
-    "static/js/main.7ed95b4e.js"
+    "static/js/main.8ac6119b.js"
   ]
 }
