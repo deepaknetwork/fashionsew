@@ -1,0 +1,216 @@
+:root{
+  --ligth:rgb(225, 231, 252);
+  --avg: rgb(198, 217, 248);
+  --dark:rgb(66, 111, 184);
+
+}
+body{
+  margin: 0px;
+  padding: 0px;
+}
+body::-webkit-scrollbar
+{
+  display: none;
+}
+
+#h{
+  background-color:var(--ligth);
+}
+#h1{
+  display: flex;
+  background-color: var(--ligth);
+  justify-content: center;
+  padding: 20px;
+}
+#h1>div{
+  display: flex;
+  background-size: cover;
+  background-image: url('./images/back.jpg');
+  background-color: var(--avg);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+}
+
+#h1>div>h1{
+  font-weight: 1000;
+  font-family:fantasy;
+  font-size: 100px;
+  text-shadow: 2px 2px black;
+  }
+  #cap{
+    display: flex;
+    flex-wrap: wrap;
+  background-color: var(--ligth);
+  justify-content: center;
+  font-weight: 300;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  gap: 10px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  }
+  #cap>h3
+  {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+#h2{
+  display: flex;
+  background-color: var(--ligth);
+  align-items: center;
+  padding: 30px;
+  padding-right: 0px;
+  gap: 70px;
+}
+#h2s{
+  display: flex;
+  overflow-x:auto;
+  background-color: var(--ligth);
+  align-items: center;
+  padding: 30px;
+  padding-right: 0px;
+  gap: 70px;
+  animation: scroll 5s linear infinite;
+}
+
+@keyframes scroll{
+  0%{
+    transform: translateY(100);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+#h2s::-webkit-scrollbar
+{
+  display: none;
+}
+#l{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  background-color: var(--avg);
+  color: var(--dark);
+  font-family:'Times New Roman', Times, serif;
+  border-radius: 10px;
+  width: 250px;
+  height: 300px;
+  font-size: 40px;
+font-weight: 1000;
+   justify-content: center;
+  align-items: center;
+}
+#ad{
+ 
+  display: flex;
+  flex-direction: column;
+  background-color: var(--avg);
+  background-size: cover;
+  color: rgba(255, 255, 255);
+  border-radius: 10px;
+  height: 200px;
+  padding-left: 45px;
+  padding-right: 45px;
+  font-family:'Times New Roman', Times, serif;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px var(--avg);
+}
+
+#ad>h2{
+  font-size: 100px;
+  font-family:'Times New Roman', Times, serif;
+   text-shadow: 4px 4px var(--dark);
+  margin: 0px;
+}
+
+
+#l:hover{
+  background-color:var(--dark);
+  color:  var(--ligth);
+  font-weight: 1000;
+
+}
+#m1{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--ligth);
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  padding-top:100px;
+  gap:40px;
+
+}
+#card{
+  display: flex;
+  flex-direction: column;
+  background-color:var(--avg);
+  color:var(--dark);
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 5%;
+  gap: 15%;
+  padding: 7%;
+  justify-content: center;
+  align-items: center;
+}
+#card:hover{
+  background-color:var(--dark);
+  color: var(--avg);
+  font-weight: 1000;
+
+}
+#card>h2{
+ font-family: 'Times New Roman', Times, serif; 
+ font-weight: 800;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+#card>h3{
+  font-size: 30px;
+}
+#hl{
+  text-decoration: none;
+  font-size: 30px;
+  color:var(--avg);
+}
+#hl:hover{
+  font-weight: 1000;
+  
+}
+
+header{
+  display: flex;
+  position: fixed;
+  background-color:  var(--dark);
+  justify-content: space-around;
+  font-family: 'Times New Roman', Times, serif;
+  height: 80px;
+  width: 100%;
+  align-items: center;
+}
+footer{
+    display: flex;
+    background-color: var(--avg);
+    justify-content: space-around;
+    padding: 15px;
+    font-size: 30px;
+    padding: 20px;
+}
+footer>a{
+  text-decoration: none;
+}
+footer>a:hover{
+  font-size: 32px;
+  font-weight: 900;
+}
+
+#e{
+  height: 320px;
+}
